@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>    
+    <head>    
+        <title>Registration Form</title>
+        <style>
+        form{
+            padding-top:120px;
+            text-align: center;
+            font-size:30px; 
+        }    
+        input{
+            width:250px;
+            height: 40px;
+            font-size: 30px;
+        }
+    </style>
+        
+    </head>    
+    <body>    
+        <form method="post" action="connect.php">
+        Userid:<input type="text" name="Userid"><br><br>
+        Password:<input type="Password" name="Password"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </body>    
+</html>
